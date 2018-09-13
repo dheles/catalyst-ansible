@@ -47,7 +47,7 @@ borrower_ws_password:   "{{ vault_borrower_ws_password }}"
 force_default_jhed:     "{{ vault_force_default_jhed }}"
 
 # borrow_direct vars
-borrow_direct_host:     "bdtest.relaisd2d.com"
+borrow_direct_host:     "bd.relaisd2d.com"
 
 # catalyst/findit vars.
 # catalyst_base_url is a callback used by findit. It has to be a server that findit can access
@@ -78,7 +78,7 @@ solr_url_slave:         "http://{{ solr_slave_ip }}:{{ solr_port }}/solr/{{ solr
 # 23 30 : every night at 11:30PM
 # 0-23; apparently in UTC
 traject_cron_minute:    0
-traject_cron_hour:      0 
+traject_cron_hour:      0
 # NOTE: optional and mutually exclusive (only or (first &/or last))
 # only_bib:               391566
 first_bib:              6270400
